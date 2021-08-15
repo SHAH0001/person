@@ -1,15 +1,13 @@
 <template>
-    <div>
+    <div class="first-screen">
       <Header 
         :title="'Выберите пол'"
       />
       <div class="container">
         <GenderSelection />
-        <div class="button-wrapper">
-          <Button 
-            :text="'Далее'"
-          />
-        </div>
+        <Button 
+          :text="'Далее'"
+        />
       </div>
     </div>
 </template>
@@ -29,6 +27,10 @@ export default {
 </script>
 <style lang="scss">
 @import '@/assets/scss/style.scss';
+
+.first-screen {
+  height: 91%;
+}
 
 .button-wrapper {
   position: relative;

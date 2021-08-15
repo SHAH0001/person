@@ -17,7 +17,7 @@ export default {
   name: 'App',
   data() {
     return {
-      currentScreen: 'FirstScreen'
+      currentScreen: 'SecondScreen'
     }
   },
   components: {
@@ -26,14 +26,11 @@ export default {
   },
   methods: {
     changeScreen(screen) {
-      // console.log('changeScreen: ', val)
       this.currentScreen = screen
     }
   },
   created() {
     eventBus.$on('changeScreen', this.changeScreen)
-    // eventBus.$on('clickFirstScreen', this.changeScreen)
-    // clickSecondScreen
   }
 }
 </script>
