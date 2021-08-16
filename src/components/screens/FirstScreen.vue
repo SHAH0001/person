@@ -25,8 +25,6 @@ export default {
 }
 </script>
 <style lang="scss">
-@import '@/assets/scss/style.scss';
-
 .first-screen {
   height: 91%;
 }

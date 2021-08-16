@@ -32,8 +32,6 @@ export default {
 }
 </script>
 <style lang="scss">
-@import '@/assets/scss/style.scss';
-
 .input {
     margin-bottom: 30px;
 

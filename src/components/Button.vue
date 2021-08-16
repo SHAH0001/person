@@ -24,8 +24,6 @@ export default {
 }
 </script>
 <style lang="scss">
-@import '@/assets/scss/style.scss';
-
 .button {
 
     background: linear-gradient(135deg, #1C1E2B 0%, #323441 100%);

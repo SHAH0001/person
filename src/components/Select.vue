@@ -47,8 +47,6 @@ export default {
 }
 </script>
 <style lang="scss">
-@import '@/assets/scss/style.scss';
-
 .select {
     background: $backgroundColor;
     box-shadow: 4px 4px 8px rgba(11, 11, 17, 0.91), -1px -1px 13px rgba(255, 255, 255, 0.34);
