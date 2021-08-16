@@ -27,8 +27,7 @@ export default {
 @import '@/assets/scss/style.scss';
 
 .button {
-    // position: absolute;
-    // bottom: 20px;
+
     background: linear-gradient(135deg, #1C1E2B 0%, #323441 100%);
     box-shadow: 2px 2px 8px #0A0C15, -2px -2px 6px rgba(255, 255, 255, 0.27);
     border-radius: 5px;

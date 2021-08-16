@@ -17,6 +17,9 @@
                 :label="'Текущий вес'"
                 :unit="'кг'"
             />
+            <Select 
+                :items="items"
+            />
             <Input 
                 :label="'Целевой вес'"
                 :unit="'кг'"
@@ -31,18 +34,30 @@
 import Header from '../Header.vue'
 import Input from '../Input.vue'
 import Button from '../Button.vue'
+import Select from '../Select.vue'
 
 export default {
+    data() {
+        return {
+            items: [
+                'Быстрая скорость набора',
+                'Средняя скорость набора',
+                'Поддержка',
+                'Средняя скорость похудения',
+                'Быстрая скорость похудения'
+            ]
+        }
+    },
     components: {
        Header,
        Input,
-       Button
+       Button,
+       Select
     }
 }
 </script>
 <style lang="scss">
 .second-screen {
-    // height: 91%;
     padding-top: 150px;
 }
 

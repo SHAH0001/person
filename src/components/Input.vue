@@ -27,7 +27,6 @@ export default {
         }
     },
     mounted() {
-        console.log('From input: ', this.$refs.unit.offsetWidth)
         this.offsetWidth = this.$refs.unit.offsetWidth
     }
 }

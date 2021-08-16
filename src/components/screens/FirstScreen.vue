@@ -12,7 +12,6 @@
     </div>
 </template>
 <script>
-// import { eventBus } from '../../main'
 import Header from '../Header.vue'
 import GenderSelection from '../GenderSelection.vue'
 import Button from '../Button.vue'
